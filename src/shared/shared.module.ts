@@ -1,9 +1,9 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { AmountDirective } from './directives/amount.directive';
+import { IinDirective } from './directives/iin.directive';
 
 const sharedComponents = [
-  AmountDirective
+  IinDirective
 ]
 
 @NgModule({

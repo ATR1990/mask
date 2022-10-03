@@ -1,10 +1,10 @@
 import { Directive, ElementRef, HostListener, Input } from '@angular/core';
 
 @Directive({
-  selector: '[zpAmount]',
+  selector: '[appIin]',
 })
-export class AmountDirective {
-  @Input('zpAmount') maxLength!: number;
+export class IinDirective {
+  @Input('appIin') maxLength!: number;
 
   constructor(private el: ElementRef) {}
 

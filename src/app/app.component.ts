@@ -18,7 +18,7 @@ export class AppComponent implements OnInit {
 
   initForm() {
     this.maskForm = this.fb.group({
-      amount: [null]
+      iin: [null]
     })
   }
 
